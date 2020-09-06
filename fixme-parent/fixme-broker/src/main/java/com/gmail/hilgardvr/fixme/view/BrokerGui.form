@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="CashBalanceLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ValueHoldingField" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="TotalAccountValueField" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="CashBalanceTextField" pref="110" max="32767" attributes="0"/>
+                                  <Component id="HoldingsValueTextField" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="TotalAccountValueTextField" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="RefreshDataButton" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="HeaderLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="OutputLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                              <Component id="OutputTextField" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="213" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="ShareCodeLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="BuyShareTextField" min="-2" pref="83" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="HoldingsLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="HoldingsComboBox" pref="224" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="SellPriceLabel" min="-2" max="-2" attributes="0"/>
+                          <Component id="BuyPriceLabel" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="BuyPriceTextField" pref="50" max="32767" attributes="0"/>
+                          <Component id="SellPriceTextField" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="BuyVolumeTextField" min="-2" pref="131" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="BuyButton" min="-2" pref="69" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="BuyToggle" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="SellVolumeTextField" min="-2" pref="131" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="SellButton" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="SellToggle" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="HeaderLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="CashBalanceLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="CashBalanceTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="RefreshDataButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ValueHoldingField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="HoldingsValueTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="TotalAccountValueTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TotalAccountValueField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="HoldingsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="HoldingsComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SellVolumeTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SellButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SellPriceTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SellToggle" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="SellPriceLabel" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ShareCodeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuyShareTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuyPriceTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuyPriceLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuyButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuyToggle" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="BuyVolumeTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="OutputTextField" min="-2" pref="95" max="-2" attributes="0"/>
+                  <Component id="OutputLabel" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="HeaderLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fix-me Broker User Interface"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="CashBalanceLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cash balance"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="CashBalanceTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="CashBalanceTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ValueHoldingField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Value of holdings"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="HoldingsValueTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="HoldingsValueTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TotalAccountValueTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TotalAccountValueTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="TotalAccountValueField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total account value"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="HoldingsLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Holdings"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="HoldingsComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SellVolumeTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="SellVolumeTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="SellButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Sell"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ShareCodeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Share Code"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BuyShareTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BuyShareTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BuyPriceTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BuyPriceTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="BuyVolumeTextField">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BuyVolumeTextFieldActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="BuyButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Buy"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BuyButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="RefreshDataButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Refresh Data"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="OutputTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="OutputLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Output"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BuyPriceLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Price"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Volume to Buy/Sell"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="SellPriceLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Price"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="SellPriceTextField">
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="SellToggle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Market/Limit"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="BuyToggle">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Market/Limit"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
